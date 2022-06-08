@@ -1,0 +1,13 @@
+/* フレームのサイズの可変 */
+.resizeFlame {
+    width: 75%;
+}
+/* テキストフォントを変える */
+.textFont {
+	font-size:7em;
+	text-align:center;
+	line-height:0.95em;
+	letter-spacing: 0.05em;
+	color: transparent;
+	-webkit-text-stroke: 0.03em rgb(227, 205, 31);
+}
