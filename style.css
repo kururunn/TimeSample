@@ -1,13 +1,32 @@
 /* フレームのサイズの可変 */
+
 .resizeFlame {
     width: 75%;
 }
+
+
 /* テキストフォントを変える */
+
 .textFont {
-	font-size:7em;
-	text-align:center;
-	line-height:0.95em;
-	letter-spacing: 0.05em;
-	color: transparent;
-	-webkit-text-stroke: 0.03em rgb(227, 205, 31);
+    font-size: 7em;
+    text-align: center;
+    line-height: 0.95em;
+    letter-spacing: 0.05em;
+    color: transparent;
+    -webkit-text-stroke: 0.03em rgb(171, 17, 17);
+}
+
+a[href^="tel:"] {
+    cursor: default;
+}
+
+body {
+    text-align: center;
+    background-color: #FFF4E0;
+    color: #13ef3f;
+}
+
+.body {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px gray;
 }
